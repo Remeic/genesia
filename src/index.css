@@ -287,16 +287,26 @@ body {
 }
 
 .mail__box {
+  display: block;
+  padding: 20% 5%;
+}
+
+@media(min-width: 992px){
+  .mail__box {
+    padding: 20% 35%;
+  }
+}
+
+.mail__buttons{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20% 35%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
 }
 
 .mail__input {
   color: white;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.8em;
   padding-right: 1rem;
 }
 
@@ -308,17 +318,34 @@ body {
   font-size: 0.9em;
   background-color: #fff;
   color: #646464;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 1.3rem;
+  font-weight: bold;
 }
 
 .thanks {
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
   right: 1rem;
   color: white;
 }
 
+.thanks > a{
+  color: inherit;
+  text-decoration: underline;
+
+}
+
 .title {
   font-size: 3rem;
   color: white;
+}
+
+.email{
+  background: none;
+  border: 2px solid white;
+  line-height: 2;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
