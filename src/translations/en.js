@@ -1,4 +1,6 @@
 export default {
     copy : "Copy",
-    generate : "Generate"
+    generate : "Generate",
+    copied: "Email was copied into clipboard"
+
 }

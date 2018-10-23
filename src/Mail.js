@@ -15,7 +15,7 @@ class Mail extends Component {
   }
 
   notify = () => {
-    toast('The mail has been copied to clipboard.', {
+    toast(polyglot.t('copied'), {
       position: toast.POSITION.BOTTOM_LEFT
     });
   };

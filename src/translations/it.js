@@ -1,4 +1,5 @@
 export default {
     copy : "Copia",
-    generate : "Genera"
+    generate : "Genera",
+    copied: "La mail è stata copiata nella clipboard"
 };
