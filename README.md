@@ -5,5 +5,5 @@
 Generate casual string for create a Mailnasia Email
 
 # Screenshots
-![Screenshot](/screenshot/genesia.jpg? "Optional Title")
+![Screenshot](http://github.com/musatech/genesia/screenshot/genesia.gif "Optional Title")
 
