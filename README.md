@@ -1,5 +1,6 @@
-**Genesia**
+# Genesia
+<img src="/src/logo.svg?sanitize=true" width="150" height="150">
 
-Simple project for some test with react
+Simple project for some test with react.
 
-Generate casual string for create a Mailnasia Email
+Generates casual string to create a Mailnasia Email.
