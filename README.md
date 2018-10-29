@@ -1,5 +1,5 @@
 **Genesia**
 
-Simple project for some test with react
+<p>Simple project for some test with react</P>
 
-Generate casual string for create a Mailnasia Email
+<p>Generate casual string for create a Mailnasia Email</p>
