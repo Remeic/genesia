@@ -13,6 +13,12 @@ class Mail extends Component {
       word: gen(lengthWord)
     };
   }
+  
+  componentDidMount = () => {
+    navigator.clipboard.writeText(document.getElementById('email').value).then(() => {
+      this.notify();
+    });
+  }
 
   notify = () => {
     toast(polyglot.t('copied'), {
