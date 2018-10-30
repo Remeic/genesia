@@ -5,6 +5,7 @@
 
 # testing
 /coverage
+jest_*/*
 
 # production
 /build
