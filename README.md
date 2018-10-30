@@ -1,7 +1,11 @@
 <div align="center">
   <h1>Genesia</h1>
-  [![CircleCI](https://circleci.com/gh/Remeic/genesia/tree/master.svg?style=svg)](https://circleci.com/gh/Remeic/genesia/tree/master)
-  [![Build Status](https://travis-ci.org/Remeic/genesia.svg?branch=master)](https://travis-ci.org/Remeic/genesia)
+  <a href="https://travis-ci.org/Remeic/genesia" target="_blank" >
+    <img src="https://travis-ci.org/Remeic/genesia.svg?branch=master">
+  </a>
+  <a href="https://circleci.com/gh/Remeic/genesia" target="_blank" >
+    <img src="https://circleci.com/gh/Remeic/genesia.svg?style=svg">
+  </a>
 </div>
 
 ## Screenshots
