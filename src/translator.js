@@ -3,7 +3,7 @@ import itTranslations from './translations/it';
 import enTranslations from './translations/en';
 
 
-var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
+var [lang] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
 var polyglot = new Polyglot(lang);
 
 switch (lang) {
