@@ -13,8 +13,6 @@
   </a> </div>
 </div>
 
-<img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/main.png">
-
 ### Description 
 
 It's an application, which will give you a random mailbox name for http://www.mailnesia.com service. 
