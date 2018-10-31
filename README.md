@@ -19,6 +19,17 @@
 Mailnesia gets you an anonymous e-mail in seconds. This email is disposable and supports HTML.
 Read more at (http://www.mailnesia.com)[Mailnesia]
 
+### Features
+
+- Random e-mail generator for YOUR usage
+- Ability to check this anonymous e-mail's inbox
+
+### Why use?
+
+Not exposing your personal e-mail addresses which may contain sensitive information, yet you want to be able to 'browse' e-mail newsletters sent from websites.
+
+### Future
+
 ### Installation
 
 Fork repo using `git clone https://github.com/Remeic/genesia.git`
