@@ -14,6 +14,9 @@ class Mail extends Component {
     };
   }
 
+
+
+
   notify = () => {
     toast(polyglot.t('copied'), {
       position: toast.POSITION.BOTTOM_LEFT
@@ -24,6 +27,19 @@ class Mail extends Component {
     this.setState({ word: gen(this.state.lengthWord) });
   };
 
+  
+
+  componentDidUpdate(prevProps,prevState,snapshot){ //for copying email when a new email is generated
+
+    const email = document.getElementById('email');
+    email.select();
+    document.execCommand('copy');
+    this.notify();
+
+  }
+
+  
+
   copy = () => {
     console.log('prova');
     const email = document.getElementById('email');
@@ -33,6 +49,7 @@ class Mail extends Component {
   };
 
   render() {
+
     return (
       <div>
         <div className="mail__box">
@@ -46,7 +63,7 @@ class Mail extends Component {
             />
           </div>
           <div className="mail__buttons">
-            <button className="button" onClick={this.copy}>
+            <button className="button">
               {polyglot.t('copy')}{' '}
               <span role="img" aria-label="sheet">
                 📄
