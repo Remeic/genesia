@@ -3,22 +3,31 @@ import { ToastContainer, toast } from 'react-toastify';
 import gen from './wordGenerator';
 import polyglot from './translator';
 
+
 class Mail extends Component {
   constructor(props) {
     super(props);
-    let lengthWord = 4;
+    let lengthWord = 4;       
+    this.notify();         
     this.state = {
       lengthWord: lengthWord,
       suffix: '@mailnesia.com',
-      word: gen(lengthWord)
-    };
+      word: gen(lengthWord),
+    };  
   }
-
-  notify = () => {
+  
+  
+    notify = () => {
     toast(polyglot.t('copied'), {
       position: toast.POSITION.BOTTOM_LEFT
     });
   };
+  
+  componentDidMount= () => {
+    navigator.clipboard.writeText(this.state.word+this.state.suffix).then(() => {
+    console.log('email are copies');
+    });
+  }   
 
   newMail = () => {
     this.setState({ word: gen(this.state.lengthWord) });
