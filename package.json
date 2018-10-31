@@ -4,9 +4,8 @@
   "private": true,
   "dependencies": {
     "node-polyglot": "^2.3.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
     "react-toastify": "^4.4.0"
   },
   "scripts": {
@@ -19,6 +18,13 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "jest-enzyme": "^7.0.0",
+    "react-scripts": "^2.1.0",
     "react-test-renderer": "^16.5.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
