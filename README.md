@@ -1,5 +1,8 @@
 <div align="center">
   <h1>Genesia</h1>
+  
+  <img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/main.png">
+  
   <a href="https://travis-ci.org/Remeic/genesia" target="_blank" >
     <img src="https://travis-ci.org/Remeic/genesia.svg?branch=master">
   </a>
