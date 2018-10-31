@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/main.png">
+  
+  <img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/logo.png">
   
  <div><a href="https://travis-ci.org/Remeic/genesia" target="_blank" >
     <img src="https://travis-ci.org/Remeic/genesia.svg?branch=master">
@@ -11,6 +12,8 @@
      <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667"> 
   </a> </div>
 </div>
+
+<img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/main.png">
 
 ### Description 
 
