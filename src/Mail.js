@@ -27,17 +27,16 @@ class Mail extends Component {
     this.setState({ word: gen(this.state.lengthWord) });
   };
 
-  
 
-  componentDidUpdate(prevProps,prevState,snapshot){ //for copying email when a new email is generated
+  change=()=>{
 
+    console.log('prova');
     const email = document.getElementById('email');
     email.select();
     document.execCommand('copy');
     this.notify();
 
   }
-
   
 
   copy = () => {
@@ -47,6 +46,12 @@ class Mail extends Component {
     document.execCommand('copy');
     this.notify();
   };
+
+  componentDidUpdate(prevProps,prevState,snapshot){ //for copying email when a new email is generated
+
+    this.copy();
+
+  }
 
   render() {
 
@@ -59,11 +64,12 @@ class Mail extends Component {
               type="email"
               id="email"
               value={this.state.word + this.state.suffix}
+              onClick={console.log("abcd")}
               readOnly
             />
           </div>
           <div className="mail__buttons">
-            <button className="button">
+            <button className="button" onClick={this.copy}>
               {polyglot.t('copy')}{' '}
               <span role="img" aria-label="sheet">
                 📄
