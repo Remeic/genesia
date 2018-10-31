@@ -6,7 +6,9 @@
   <a href="https://circleci.com/gh/Remeic/genesia" target="_blank" >
     <img src="https://circleci.com/gh/Remeic/genesia.svg?style=svg">
   </a>
-  <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667">
+  <a href="https://github.com/DanteTheDevil/genesia/pull/new/master">
+     <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667"> 
+  </a>
 </div>
 
 ### Description 
