@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Mail from './Mail';
+import Mail from './Mail_hooks';
 
 class App extends Component {
   render() {
