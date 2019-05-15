@@ -2,15 +2,21 @@ import React, { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import gen from './wordGenerator';
 import polyglot from './translator';
+import copyTextToClipboard from "./copyToClipboard";
 
 class Mail extends Component {
   constructor(props) {
     super(props);
     let lengthWord = 4;
+    let suffix = '@mailnesia.com';
+    let newWord = gen(lengthWord);
+    copyTextToClipboard(newWord + suffix);
+    this.notify();
+
     this.state = {
       lengthWord: lengthWord,
-      suffix: '@mailnesia.com',
-      word: gen(lengthWord)
+      suffix: suffix,
+      word: newWord
     };
   }
 
@@ -21,7 +27,10 @@ class Mail extends Component {
   };
 
   newMail = () => {
-    this.setState({ word: gen(this.state.lengthWord) });
+    const newWord = gen(this.state.lengthWord);
+    copyTextToClipboard(newWord + this.state.suffix);
+    this.notify();
+    this.setState({ word: newWord });
   };
 
   copy = () => {
