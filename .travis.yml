@@ -6,6 +6,9 @@ node_js:
 env:
   - CI=true
 
+install:
+  - yarn
+
 cache:
   yarn: true
   directories:
