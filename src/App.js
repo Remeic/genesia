@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './App.css';
-import Mail from './Mail';
+import React, { Component } from "react";
+import "./App.css";
+import Mail from "./Mail";
 
 class App extends Component {
   render() {
