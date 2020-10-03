@@ -17,7 +17,7 @@
 - Generates a casual string for creating a Mailnasia Email
 
 Mailnesia gets you an anonymous e-mail in seconds. This email is disposable and supports HTML.
-Read more at (http://www.mailnesia.com)[Mailnesia]
+Read more at [Mailnesia](http://www.mailnesia.com)
 
 ### Installation
 
