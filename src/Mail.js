@@ -32,6 +32,16 @@ class Mail extends Component {
     this.notify();
   };
 
+  componentDidMount = () => {
+    navigator.clipboard.writeText(document.getElementById('email').value)
+    .then(() => {
+      this.notify();
+    })
+    .catch((err) => {
+      console.error('could not copy to clipboard ', err);
+    });
+  }
+
   render() {
     return (
       <div>
