@@ -1,7 +1,6 @@
 <div align="center">
   
-  <img src="https://github.com/DanteTheDevil/genesia/blob/master/screenshot/logo.png">
-  
+<h1 style='font-weight: bold'>GENESIA</h1>  
  <div><a href="https://travis-ci.org/Remeic/genesia" target="_blank" >
     <img src="https://travis-ci.org/Remeic/genesia.svg?branch=master">
   </a>
