@@ -278,9 +278,9 @@ summary {
 body {
   background: #CB356B;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+  background: -webkit-linear-gradient(to bottom right, #01062c, #113455);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #BD3F32, #CB356B);
+  background: linear-gradient(to bottom right, #01062c, #113455);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
@@ -291,11 +291,6 @@ body {
   padding: 20% 5%;
 }
 
-@media(min-width: 992px){
-  .mail__box {
-    padding: 20% 35%;
-  }
-}
 
 .mail__buttons{
   display: flex;
@@ -307,19 +302,25 @@ body {
   color: white;
   font-weight: bold;
   font-size: 1.8em;
-  padding-right: 1rem;
+  margin-bottom: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
   display: inline-block;
   position: relative;
-  line-height: 32px;
-  border-radius: 2px;
-  font-size: 0.9em;
-  background-color: #fff;
-  color: #646464;
+  line-height: 3vw;
+  border-radius: 6px;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+  background-color: rgba(70, 33, 51, 0.438);
+  color: #f56262;
   padding: 0.3rem 1.3rem;
   font-weight: bold;
+  box-shadow: rgb(30, 8, 54) 3px 3px 5px ;
 }
 
 .thanks {
@@ -336,16 +337,68 @@ body {
 }
 
 .title {
-  font-size: 3rem;
-  color: white;
+  font-size: 7vh;
+  color: rgb(111, 190, 236);
+}
+
+.title:hover{
+  cursor: none;
+  color: aliceblue;
 }
 
 .email{
+  font-size: 2vw;
   background: none;
   border: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   line-height: 2;
-  border-radius: 4px;
-  color: white;
+  border-radius: 5px;
+  color: rgb(83, 178, 241);
   text-align: center;
   width: 100%;
+  box-shadow: #01062c -3px -3px 6px;
+  padding: 0px 4vw;
+}
+
+#fuctional_area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+.button:active{
+  box-shadow: none ;
+  left:3px;
+  top: 3px;
+  outline: none;
+}
+
+.button:hover{
+  cursor: grab;
+  transform:scale(0.9);
+}
+
+.rebutton{
+  outline: none;
+  cursor: pointer;
+  background:none;
+  border: none;
+  height: min-content;
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 600px){
+  .rebutton{
+    transform: scale(1);
+  }
+  .email{
+    font-size: 2vh;
+  }
+  .title{
+    font-size: 4vh;
+  }
 }

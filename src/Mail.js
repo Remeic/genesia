@@ -9,7 +9,7 @@ export default function Mail() {
   const [word, setWord] = useState(gen(lengthWord));
 
   return (
-    <div>
+    <div id='fuctional_area'>
       <div className="mail__box">
         <div className="mail__input">
           <input
@@ -19,21 +19,20 @@ export default function Mail() {
             value={getComposedMail(word, suffix)}
             readOnly
           />
+          <button className="rebutton" onClick={() => setWord(gen(lengthWord))}>
+            <span role="img" aria-label="reset">
+            🔄
+            </span>
+          </button>
+          
         </div>
-        <div className="mail__buttons">
-          <button className="button" onClick={copy}>
+        <button className="button" onClick={copy}>
             {polyglot.t("copy")}{" "}
             <span role="img" aria-label="sheet">
               📄
             </span>
           </button>
-          <button className="button" onClick={() => setWord(gen(lengthWord))}>
-            {polyglot.t("generate")}{" "}
-            <span role="img" aria-label="rocket">
-              🚀
-            </span>
-          </button>
-        </div>
+        
       </div>
       <ToastContainer autoClose={4000} />
     </div>
