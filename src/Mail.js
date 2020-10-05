@@ -18,6 +18,7 @@ export default function Mail() {
             id="email"
             value={getComposedMail(word, suffix)}
             readOnly
+            onClick={copy}
           />
           <button className="rebutton" onClick={() => setWord(gen(lengthWord))}>
             <span role="img" aria-label="reset">

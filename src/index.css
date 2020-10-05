@@ -278,9 +278,11 @@ summary {
 body {
   background: #CB356B;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom right, #01062c, #113455);
+  /* background: -webkit-linear-gradient(to bottom right, #010418, #113455); */
+  background: -webkit-radial-gradient(circle,#113455, #010418);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom right, #01062c, #113455);
+  /* background: linear-gradient(to bottom right, #010418, #113455); */
+  background: radial-gradient(circle#113455, #010418);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
@@ -318,7 +320,7 @@ body {
   text-transform: capitalize;
   background-color: rgba(70, 33, 51, 0.438);
   color: #f56262;
-  padding: 0.3rem 1.3rem;
+  padding: 0.8vw 1.1vw;
   font-weight: bold;
   box-shadow: rgb(30, 8, 54) 3px 3px 5px ;
 }
@@ -347,12 +349,11 @@ body {
 }
 
 .email{
+  cursor: copy;
   font-size: 2vw;
   background: none;
-  border: 2px solid white;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
+  border-bottom: 2px solid white;
   line-height: 2;
   border-radius: 5px;
   color: rgb(83, 178, 241);
@@ -368,8 +369,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* height: 100%; */
-  /* width: 100%; */
 }
 
 .button:active{
