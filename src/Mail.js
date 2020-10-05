@@ -27,7 +27,7 @@ export default function Mail() {
           
         </div>
         <button className="button" onClick={copy}>
-            {polyglot.t("copy")}{" "}
+            {/* {polyglot.t("copy")}{" "} */}
             <span role="img" aria-label="sheet">
               📄
             </span>

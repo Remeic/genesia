@@ -360,6 +360,7 @@ body {
   width: 100%;
   box-shadow: #01062c -3px -3px 6px;
   padding: 0px 4vw;
+  outline: none;
 }
 
 #fuctional_area{
@@ -379,7 +380,7 @@ body {
 }
 
 .button:hover{
-  cursor: grab;
+  cursor: copy;
   transform:scale(0.9);
 }
 
