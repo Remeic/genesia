@@ -288,7 +288,7 @@ body {
 
 .mail__box {
   display: block;
-  padding: 20% 5%;
+  padding: 16vh 5vw;
 }
 
 
@@ -367,7 +367,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   /* height: 100%; */
   /* width: 100%; */
 }
