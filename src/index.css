@@ -1,4 +1,4 @@
-/*! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
+! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize
 
 /* Document
    ========================================================================== */
@@ -284,68 +284,4 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
-}
-
-.mail__box {
-  display: block;
-  padding: 20% 5%;
-}
-
-@media(min-width: 992px){
-  .mail__box {
-    padding: 20% 35%;
-  }
-}
-
-.mail__buttons{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 2rem;
-}
-
-.mail__input {
-  color: white;
-  font-weight: bold;
-  font-size: 1.8em;
-  padding-right: 1rem;
-}
-
-.button {
-  display: inline-block;
-  position: relative;
-  line-height: 32px;
-  border-radius: 2px;
-  font-size: 0.9em;
-  background-color: #fff;
-  color: #646464;
-  padding: 0.3rem 1.3rem;
-  font-weight: bold;
-}
-
-.thanks {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  color: white;
-}
-
-.thanks > a{
-  color: inherit;
-  text-decoration: underline;
-
-}
-
-.title {
-  font-size: 3rem;
-  color: white;
-}
-
-.email{
-  background: none;
-  border: 2px solid white;
-  line-height: 2;
-  border-radius: 4px;
-  color: white;
-  text-align: center;
-  width: 100%;
 }
