@@ -28,18 +28,18 @@ export const MAIL_SERVICES_DOMAINS = {
 
 export const MAIL_SERVICES_HOMEPAGES = {
   [MAIL_SERVICES.MAILNESIA]: "https://mailnesia.com/",
-  [MAIL_SERVICES.YOPMAIL]: "http://www.yopmail.com/",
+  [MAIL_SERVICES.YOPMAIL]: "https://www.yopmail.com/",
   [MAIL_SERVICES.DISPOSTABLE]: "https://www.dispostable.com/",
   [MAIL_SERVICES.MAILPOOF]: "https://mailpoof.com/",
 };
 
 export const MAIL_SERVICES_MAILBOX_PATH_CONFIG = {
   [MAIL_SERVICES.MAILNESIA]: {
-    prefix: "http://mailnesia.com/mailbox/",
+    prefix: "https://mailnesia.com/mailbox/",
     suffix: "",
   },
   [MAIL_SERVICES.YOPMAIL]: {
-    prefix: "http://www.yopmail.com/?",
+    prefix: "http:s//www.yopmail.com/?",
     suffix: "",
   },
   [MAIL_SERVICES.DISPOSTABLE]: {
