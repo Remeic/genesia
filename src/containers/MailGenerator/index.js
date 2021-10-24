@@ -15,7 +15,7 @@ import {
   copyTextToClipboard,
 } from "../../utils";
 
-const StyledMailGenerator = styled("div")((props) => ({
+const StyledMailGenerator = styled("div")(() => ({
   display: "block",
   margin: "20% 5%",
   "@media(min-width: 992px)": {
