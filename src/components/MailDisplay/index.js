@@ -4,7 +4,7 @@ import { styled } from "goober";
 import MailboxNameInput from "../MailBoxNameInput";
 import MailServiceSelector from "../MailServiceSelector";
 
-const StyledMailDisplay = styled("div")((props) => ({
+const StyledMailDisplay = styled("div")(() => ({
   color: "white",
   fontWeight: "bold",
   display: "flex",

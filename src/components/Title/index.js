@@ -5,7 +5,6 @@ const StyledTitle = styled("div")`
   font-size: 3rem;
   color: white;
 `;
-export default function Title(props) {
-    const {titleText} = props
-return <StyledTitle>{titleText}</StyledTitle>;
+export default function Title({titleText}) {
+  return <StyledTitle>{titleText}</StyledTitle>;
 }
