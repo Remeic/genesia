@@ -1,3 +1,6 @@
+> **Warning** <br />
+> This project is no longer maintained and its use is not recommended
+
 <div align="center">
   
 <h1 style='font-weight: bold'>GENESIA</h1>  
