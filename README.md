@@ -1,6 +1,10 @@
 > **Warning** <br />
 > This project is no longer maintained and its use is not recommended
 
+> **Note** <br />
+> An old version of this site can be consulted at: [Genesia](https://genesia.surge.sh/) 
+
+
 <div align="center">
   
 <h1 style='font-weight: bold'>GENESIA</h1>  
@@ -18,6 +22,7 @@
 ### Description
 
 It's an application, which will give you a random mailbox name for http://www.mailnesia.com service.
+In no way is this repository affiliated with mailnesia
 
 ### Why i need this ?
 
